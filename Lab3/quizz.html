@@ -42,6 +42,9 @@
                 <input type="radio" name="direcao" value="sul">
                 <label for="sul">Sul</label><br>
 
+                <p>Situe no mapa (clique num ponto da imagem)</p>
+                <input type="image" src="images/servia.gif" width="310" height="180" >
+
                 <p>Belgrado já foi ocupada por que povos, na Antiguidade?</p>
                 <input type="checkbox" id="gregos" name="gregos" value="Gregos">
                 <label for="gregos"> Gregos</label><br>
@@ -74,6 +77,8 @@
                 <label for="percentagem">Percentagem (entre 0 e 100):</label>
                 <input type="range" id="percentagem" name="percentagem" min="0" max="100" oninput="percentagemN.value = parseInt(percentagem.value)">
                 <output name="percentagemN" for="percentagem">50</output> %
+
+
             </fieldset>
 
             <input type="submit" value="Submeter">
@@ -85,7 +90,6 @@
 
 
 
-            <input type="image" src="images/img_submit.gif" alt="Submit" width="48" height="48" >
 
 
 
@@ -94,7 +98,7 @@
             <label for="sugestao">Sugestão:</label>
             <input type="text" id="sugestao" name="sugestao" form="form1"><br>  
 
-            <input type="file" id="files" name="files" multiple><br><br>
+            <input type="file" id="files" name="files" multiple>
 
             
             
