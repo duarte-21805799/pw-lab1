@@ -17,23 +17,85 @@
         <h3>Quizz</h3>
 
         <form method="post"
-            action="mailto:duarte.cambra@gmail.com"
+            action="mailto:duarte.cambra@gmail.com" autocomplete="on"
             * {box-sizing: border-box;}>
 
             <fieldset>
 
             <legend>Dados pessoais:</legend>
             <p>Nome: <input type=
-            "text" name="nome"></p>
+            "text" name="nome" placeholder="John" size="15" maxlength="15" autofocus required></p>
             <p>Apelido: <input type=
-            "text" name="apelido"></p>
+            "text" name="apelido" placeholder="Doe" size="15" maxlength="15" required></p>
             <p>E-mail: <input type=
-            "text" name="email"></p>
-
-            <input type="submit" value="submeter">
+            "text" name="email" placeholder="oseuemail@geral.com" size="50" maxlength="50" autocomplete="off" required></p>
 
             </fieldset>
+
+            <fieldset>
+                
+                <legend>Quizz sobre Belgrado</legend>
+
+                <p>Onde se encontra a cidade de Belgrado (dentro da Sérvia)?</p>
+                <input type="radio" name="direcao" value="norte">
+                <label for="norte">Norte</label><br>
+                <input type="radio" name="direcao" value="sul">
+                <label for="sul">Sul</label><br>
+
+                <p>Belgrado já foi ocupada por que povos, na Antiguidade?</p>
+                <input type="checkbox" id="gregos" name="gregos" value="Gregos">
+                <label for="gregos"> Gregos</label><br>
+                <input type="checkbox" id="celtas" name="celtas" value="Celtas">
+                <label for="celtas"> Celtas</label><br>
+                <input type="checkbox" id="romanos" name="romanos" value="Romanos">
+                <label for="romanos"> Romanos</label><br>
+                <input type="checkbox" id="bulgaros" name="bulgaros" value="Bulgaros">
+                <label for="bulgaros"> Búlgaros</label><br>
+                <input type="checkbox" id="arabes" name="arabes" value="Arabes">
+                <label for="arabes"> Árabes</label><br>
+
+                <p>Quando foram as maiores manifestações da história moderna da Sérvia, que tiveram lugar em Belgrado e que levaram à derrocada final de Slobodan Milošević? </p>
+                <input type="date" id="manifestacoes" name="manifestacoes" max="2020-01-01"><br><br>
+                
+                <p>Quais são as 3 cores predominantes da bandeira oficial de Belgrado? (A ordem é irrelevante)</p>
+
+                <label for="favcolor">Cor 1:</label>
+                <input type="color" id="cor1" name="cor1" value="#ff0000">
+                <label for="favcolor">Cor 2</label>
+                <input type="color" id="cor2" name="cor2" value="#ff0000">
+                <label for="favcolor">Cor 3</label>
+                <input type="color" id="cor3" name="cor3" value="#ff0000">
+
+                <p>Qual é a população atual de Belgrado? (Em milhões)</p>
+                <label for="populacao">Quantity:</label>
+                <input type="number" id="populacao" name="populacao" min="0.5" max="3.0" step="0.1" value="0.5">    
+
+                <p>Qual é a percentagem da população da Sérvia que reside em Belgrado? (Aproximadamente)</p>
+                <label for="percentagem">Percentagem (entre 0 e 100):</label>
+                <input type="range" id="percentagem" name="percentagem" min="0" max="100" oninput="percentagemN.value = parseInt(percentagem.value)">
+                <output name="percentagemN" for="percentagem">50</output> %
+            </fieldset>
+
+            <input type="submit" value="Submeter">
+
+
+
+
             </form>
 
+
+
+            <input type="image" src="images/img_submit.gif" alt="Submit" width="48" height="48">
+
+
+            <input type="file" id="files" name="files" multiple><br><br>
+
+            <p>The "Last name" field below is outside the form element, but still part of the form.</p>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" form="form1">   
+            
+            
+            
     </body>
 </html>
