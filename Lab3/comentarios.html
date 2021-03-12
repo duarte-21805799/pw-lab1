@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="/lab2/images/favicon.ico">
+        <meta name="author" content="Duarte Cambra">
+        <meta name="keywords" content="php">
+        <meta name="description" content="Website sobre Bali">
+        <title>Belgrado</title>
+    </head>
+    <body>
+        <body style="background-color:antiquewhite"></body>
+        <h1>Belgrado</h1>
+        <img src="images/belgrado.png"<>
+        <p><br></p>
+        <p><a href="./index.html"><b>Introdução</b></a>|<a href="./local.html">Localização</a>|<a href="./multimedia.html">Multimédia</a>|<a href="./info.html">Informações</a>|<a href="./quizz.html">Quizz</a>|<a href="./comentarios.html">Comentários</a>|<a href="../index.html">Home</a></p>
+        <h3>Comentários</h3>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe">
+
+            <p>Em quanto avalia o Website que acabou de ver?</p>
+            <input type="range" id="percentagem" name="percentagem" min="0" max="100" oninput="percentagemN.value = parseInt(percentagem.value)">
+                <output name="percentagemN" for="percentagem">50</output> %
+
+            <p>Quais das páginas devem ser revistas ou têm coisas a melhorar?</p>
+            <select name="problemas" id="problemas" multiple>
+            <option value="index">Index</option>
+            <option value="lab1">Laboratório 1</option>
+            <option value="lab2">Laboratório 2</option>
+            <option value="lab3">Laboratório 3</option>
+            </select>
+
+            <p>Caso tenha respondido sim, nas últimas questões, por favor elabore.</p>
+            <textarea name="sugestao" style="width:200px; height:
+600px"> </textarea>
+                Insira aqui as suas sugestões.
+                </textarea>
+
+
+            <input type="hidden" id="commenton" name="commenton" value="lab3">
+
+          </form>
+    </body>
+</html>
