@@ -26,12 +26,14 @@
                 <output name="percentagemN" for="percentagem">50</output> %
 
             <p>Quais das páginas devem ser revistas ou têm coisas a melhorar?</p>
-            <select name="problemas" id="problemas" multiple>
-            <option value="index">Index</option>
-            <option value="lab1">Laboratório 1</option>
-            <option value="lab2">Laboratório 2</option>
-            <option value="lab3">Laboratório 3</option>
-            </select>
+            <input type="checkbox" id="index" name="index" value="Index">
+            <label for="index"> Index</label><br>
+            <input type="checkbox" id="lab1" name="lab1" value="Lab1">
+            <label for="lab1"> Laboratório 1</label><br>
+            <input type="checkbox" id="lab2" name="lab2" value="Lab2">
+            <label for="lab2"> Laboratório 2</label><br>
+            <input type="checkbox" id="lab3" name="lab3" value="Lab3">
+            <label for="lab3"> Laboratório 3</label><br>
 
             <p>Caso tenha respondido sim, nas últimas questões, por favor elabore.</p>
             <textarea name="sugestao" style="width:600px; height:
