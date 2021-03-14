@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="/lab2/images/favicon.ico">
+        <meta name="author" content="Duarte Cambra">
+        <meta name="keywords" content="php">
+        <meta name="description" content="Website sobre Bali">
+        <title>Belgrado</title>
+    </head>
+    <body>
+        <body style="background-color:antiquewhite"></body>
+        <h1>Belgrado</h1>
+        <img src="images/belgrado.png"<>
+        <p><br></p>
+        <p><a href="./index.html"><b>Introdução</b></a>|<a href="./local.html">Localização</a>|<a href="./multimedia.html">Multimédia</a>|<a href="./info.html">Informações</a>|<a href="./quizz.html"><b>Quizz</b></a>|<a href="./comentarios.html">Comentários</a>|<a href="./html5-css.html">HTML 5 CSS</a>|<a href="../index.html">Home</a></p>
+        <h3>Quizz</h3>
+
+        <form method="post"
+            action="mailto:duarte.cambra@gmail.com" autocomplete="on"
+            * {box-sizing: border-box;}>
+
+            <fieldset>
+
+            <legend>Dados pessoais:</legend>
+            <p>Nome: <input type=
+            "text" name="nome" placeholder="John" size="15" maxlength="15" autofocus required></p>
+            <p>Apelido: <input type=
+            "text" name="apelido" placeholder="Doe" size="15" maxlength="15" required></p>
+            <p>E-mail: <input type=
+            "text" name="email" placeholder="oseuemail@geral.com" size="50" maxlength="50" autocomplete="off" required></p>
+
+            </fieldset>
+
+            <fieldset>
+                
+                <legend>Quizz sobre Belgrado</legend>
+
+                <p>Onde se encontra a cidade de Belgrado (dentro da Sérvia)?</p>
+                <input type="radio" name="direcao" value="norte">
+                <label for="norte">Norte</label><br>
+                <input type="radio" name="direcao" value="sul">
+                <label for="sul">Sul</label><br>
+
+                <p>Situe no mapa (clique num ponto da imagem)</p>
+                <input type="image" src="images/servia.gif" width="310" height="180" >
+
+                <p>Belgrado já foi ocupada por que povos, na Antiguidade?</p>
+                <input type="checkbox" id="gregos" name="gregos" value="Gregos">
+                <label for="gregos"> Gregos</label><br>
+                <input type="checkbox" id="celtas" name="celtas" value="Celtas">
+                <label for="celtas"> Celtas</label><br>
+                <input type="checkbox" id="romanos" name="romanos" value="Romanos">
+                <label for="romanos"> Romanos</label><br>
+                <input type="checkbox" id="bulgaros" name="bulgaros" value="Bulgaros">
+                <label for="bulgaros"> Búlgaros</label><br>
+                <input type="checkbox" id="arabes" name="arabes" value="Arabes">
+                <label for="arabes"> Árabes</label><br>
+
+                <p>Quais das seguintes denominações já foram usadas no passado para se referir à cidade de Belgrado?</p>
+                <select name="nomecidade" id="nomecidade" multiple>
+                <option value="veligradi">Veligradi</option>
+                <option value="veligradon">Veligradon</option>
+                <option value="daruljihad">Dar Ul Jihad</option>
+                <option value="singiduno">Singiduno</option>
+                </select>
+
+                <p>Quando foram as maiores manifestações da história moderna da Sérvia, que tiveram lugar em Belgrado e que levaram à derrocada final de Slobodan Milošević? </p>
+                <input type="date" id="manifestacoes" name="manifestacoes" max="2020-01-01"><br><br>
+                
+                <p>Quais são as 3 cores predominantes da bandeira oficial de Belgrado? (A ordem é irrelevante)</p>
+
+                <label for="favcolor">Cor 1:</label>
+                <input type="color" id="cor1" name="cor1" value="#ff0000">
+                <label for="favcolor">Cor 2</label>
+                <input type="color" id="cor2" name="cor2" value="#ff0000">
+                <label for="favcolor">Cor 3</label>
+                <input type="color" id="cor3" name="cor3" value="#ff0000">
+
+                <p>Qual é a população atual de Belgrado? (Em milhões)</p>
+                <label for="populacao">Quantity:</label>
+                <input type="number" id="populacao" name="populacao" min="0.5" max="3.0" step="0.1" value="0.5">    
+
+                <p>Qual é a percentagem da população da Sérvia que reside em Belgrado? (Aproximadamente)</p>
+                <label for="percentagem">Percentagem (entre 0 e 100):</label>
+                <input type="range" id="percentagem" name="percentagem" min="0" max="100" oninput="percentagemN.value = parseInt(percentagem.value)">
+                <output name="percentagemN" for="percentagem">50</output> %
+
+
+            </fieldset>
+
+            <br>
+            <input type="submit" value="Submeter">
+
+
+            </form>
+
+            <p>Se tiver alguma sugestão para melhorar o Quizz pode a deixar abaixo.</p>
+
+            <label for="sugestao">Sugestão:</label>
+            <input type="text" id="sugestao" name="sugestao" form="form1"><br>  
+            
+            
+    </body>
+</html>

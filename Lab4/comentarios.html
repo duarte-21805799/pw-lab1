@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/x-icon" href="/lab2/images/favicon.ico">
+        <meta name="author" content="Duarte Cambra">
+        <meta name="keywords" content="php">
+        <meta name="description" content="Website sobre Bali">
+        <title>Belgrado</title>
+    </head>
+    <body>
+        <body style="background-color:antiquewhite"></body>
+        <h1>Belgrado</h1>
+        <img src="images/belgrado.png"<>
+        <p><br></p>
+        <p><a href="./index.html"><b>Introdução</b></a>|<a href="./local.html">Localização</a>|<a href="./multimedia.html">Multimédia</a>|<a href="./info.html">Informações</a>|<a href="./quizz.html">Quizz</a>|<a href="./comentarios.html">Comentários</a>|<a href="./html5-css.html">HTML 5 CSS</a>|<a href="../index.html">Home</a></p>
+        <h3>Comentários</h3>
+        <form>
+            <label for="fname">Primeiro nome:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Segundo nome:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe">
+
+            <p>Em quanto avalia o Website que acabou de ver?</p>
+            <input type="range" id="percentagem" name="percentagem" min="0" max="100" oninput="percentagemN.value = parseInt(percentagem.value)">
+                <output name="percentagemN" for="percentagem">50</output> %
+
+            <p>Quais das páginas devem ser revistas ou têm coisas a melhorar?</p>
+            <input type="checkbox" id="index" name="index" value="Index">
+            <label for="index"> Index</label><br>
+            <input type="checkbox" id="lab1" name="lab1" value="Lab1">
+            <label for="lab1"> Laboratório 1</label><br>
+            <input type="checkbox" id="lab2" name="lab2" value="Lab2">
+            <label for="lab2"> Laboratório 2</label><br>
+            <input type="checkbox" id="lab3" name="lab3" value="Lab3">
+            <label for="lab3"> Laboratório 3</label><br>
+
+            <p>Caso tenha respondido sim, nas últimas questões, por favor elabore.</p>
+            <textarea name="sugestao" style="width:600px; height:
+300px"> </textarea>
+                </textarea>
+
+
+            <input type="hidden" id="commenton" name="commenton" value="lab3">
+
+          </form>
+    </body>
+</html>
