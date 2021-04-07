@@ -4,6 +4,10 @@
     font-family: 'Zilla Slab Highlight', cursive;
 }
 
+body {
+    font-size: large;
+}
+
 h1 {
     /* Tipo */
     font-size: 3em;
