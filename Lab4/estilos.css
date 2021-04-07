@@ -1,4 +1,3 @@
-
 *{
     /* Universal */
     font-size: 1em;
@@ -8,11 +7,29 @@
 h1 {
     /* Tipo */
     font-size: 3em;
+    font-family: 'Zilla Slab Highlight', cursive;
+
+}
+
+h2 {
+    /* Tipo */
+    font-size: 4em;
+    font-family: 'Zilla Slab Highlight', cursive;
+
+}
+
+h3 {
+    /* Tipo */
+    font-size: 5em;
+    font-family: 'Zilla Slab Highlight', cursive;
+
 }
 
 .importante {
     /* Classe */
     color: red;
+    font-family: 'Zilla Slab Highlight', cursive;
+
 }
 
 #unico {
