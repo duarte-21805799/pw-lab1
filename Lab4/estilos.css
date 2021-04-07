@@ -1,0 +1,34 @@
+*{
+    /* Universal */
+    font-size: 1em;
+}
+
+h1 {
+    /* Tipo */
+    font-size: 3em;
+}
+
+.importante {
+    /* Classe */
+    color: red;
+}
+
+#unico {
+    /* ID */
+    background-color: red;
+}
+
+a[target=_blank] {
+    /* Atributo */
+    background-color: lightblue;
+}
+
+div:hover {
+    /* Pseudo-classe */
+    background-color: purple;
+}
+
+p::first-letter {
+    /* pseudo-elemento */
+    font-size: 2em;
+}
