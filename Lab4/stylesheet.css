@@ -18,12 +18,12 @@ h2 {
 }
 
 .introducao {
-    /* Classe */
-    color: red;
+    content: url("images/description_black_24dp.svg");
+
 }
 
-.localizacao {
-    font-family: 'Courier New', Courier, monospace;
+.localizacao::before {
+    content: url("images/localization_black_24dp.svg");
 }
 
 .multimedia::before {
