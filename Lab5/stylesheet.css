@@ -5,6 +5,7 @@
 }
 
 body {
+
     background-color:rgb(255, 255, 255);
 }
 
@@ -20,7 +21,6 @@ h2 {
 
 .introducao::before {
     content: url("images/description_black_24dp.svg");
-
 }
 
 .localizacao::before {
