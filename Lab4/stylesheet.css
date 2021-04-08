@@ -67,7 +67,7 @@ a:visited {
 
 a:hover {
     /* Pseudo-classe */
-    background-color: black;
+    color: whitesmoke;
 }
 
 a:active {
