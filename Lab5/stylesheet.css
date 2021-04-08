@@ -22,7 +22,7 @@ h2 {
 
 .aside {
     position: absolute;
-    right: 0;
+    right: 15%;
 }
 
 .introducao::before {
