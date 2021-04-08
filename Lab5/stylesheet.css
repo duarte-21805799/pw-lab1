@@ -1,0 +1,95 @@
+*{
+    /* Universal */
+    font-size: 1em;
+    font-family: 'Zilla Slab Highlight', cursive;
+}
+
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+h1 {
+    /* Tipo */
+    font-size: 3em;
+}
+
+h2 {
+    /* Tipo */
+    font-size: 2em;
+}
+
+.introducao::before {
+    content: url("images/description_black_24dp.svg");
+
+}
+
+.localizacao::before {
+    content: url("images/localization_black_24dp.svg");
+}
+
+.multimedia::before {
+    content: url("images/multimedia_black_24dp.svg");
+}
+
+.informacoes::before {
+    content: url("images/info_black_24dp.svg");
+}
+
+.quizz::before {
+    content: url("images/quiz_black_24dp.svg");
+}
+
+.html5css::before {
+    content: url("images/code_black_24dp.svg");
+}
+
+.home::before {
+    content: url("images/home_black_24dp.svg");
+}
+
+#unico {
+    /* ID */
+    background-color: red;
+}
+
+a[target=_blank] {
+    /* Atributo */
+    background-color: lightblue;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    /* Pseudo-classe */
+    color: whitesmoke;
+}
+
+a:active {
+    background-color: seashell;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    width: 100%;
+    z-index: 2;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    width: 100%;
+    z-index: -1;
+}
+p::first-letter {
+    /* pseudo-elemento */
+    font-size: 2em;
+}

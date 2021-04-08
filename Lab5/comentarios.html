@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Duarte Cambra">
+        <meta name="keywords" content="php">
+        <meta name="description" content="Website sobre Bali">
+        <title>Belgrado</title>
+        <link rel="shortcut icon" type="image/x-icon" href="/lab2/images/favicon.ico">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <img src="/Lab4/images/background.jpg" class="background">
+            <nav class="sticky">
+                <a href="./index.html" class="introducao">Introdução</a>
+                <a href="./local.html" class="localizacao">Localização</a>
+                <a href="./multimedia.html" class="multimedia">Multimédia</a>
+                <a href="./info.html" class="informacoes">Informações</a>
+                <a href="./quizz.html" class="quizz">Quizz</a>
+                <a href="./html5-css.html" class="html5css">HTML5 & CSS</a>
+                <a href="../index.html" class="home">Home</a></p>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Belgrado</h1>
+                <img src="images/belgrado.png"<>
+                <p><br></p>
+            </section>
+            <section>
+                <h2>Comentários</h2>
+                <form>
+                    <label for="fname">Primeiro nome:</label><br>
+                    <input type="text" id="fname" name="fname" value="John"><br>
+                    <label for="lname">Segundo nome:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe">
+        
+                    <p>Em quanto avalia o Website que acabou de ver?</p>
+                    <input type="range" id="percentagem" name="percentagem" min="0" max="100" oninput="percentagemN.value = parseInt(percentagem.value)">
+                        <output name="percentagemN" for="percentagem">50</output> %
+        
+                    <p>Quais das páginas devem ser revistas ou têm coisas a melhorar?</p>
+                    <input type="checkbox" id="index" name="index" value="Index">
+                    <label for="index"> Index</label><br>
+                    <input type="checkbox" id="lab1" name="lab1" value="Lab1">
+                    <label for="lab1"> Laboratório 1</label><br>
+                    <input type="checkbox" id="lab2" name="lab2" value="Lab2">
+                    <label for="lab2"> Laboratório 2</label><br>
+                    <input type="checkbox" id="lab3" name="lab3" value="Lab3">
+                    <label for="lab3"> Laboratório 3</label><br>
+        
+                    <p>Caso tenha respondido sim, nas últimas questões, por favor elabore.</p>
+                    <textarea name="sugestao" style="width:600px; height:
+        300px"> </textarea>
+                        </textarea>
+        
+        
+                    <input type="hidden" id="commenton" name="commenton" value="lab3">
+        
+                  </form>
+            </section>
+        </main>
+        <footer>
+            <br>
+            Duarte Cambra, nº21805799, Universidade Lusófona de Humanidades e Tecnologias, 2020/2021
+        </footer>
+    </body>
+</html>
+    
