@@ -61,7 +61,7 @@ a:link {
 }
 
 a:visited {
-    color: rgb(182, 51, 182);
+    color: mediumspringgreen;
 
 }
 
@@ -73,7 +73,6 @@ a:hover {
 a:active {
     background-color: yellow;
 }
-
 
 p::first-letter {
     /* pseudo-elemento */
