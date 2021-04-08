@@ -26,26 +26,25 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.multimedia {
-    color: red; 
-    font-size: 2em;
+.multimedia::before {
+    content: url("images/multimedia_black_24dp.svg");
 }
 
 .informacoes::before {
-    content: url("images/info._black_24dp.svg");
+    content: url("images/info_black_24dp.svg");
 }
 
-/*.quizz::before {
-
+.quizz::before {
+    content: url("images/quiz_black_24dp.svg");
 }
 
 .html5css::before {
-
+    content: url("images/code_black_24dp.svg");
 }
 
 .home::before {
-
-}*/
+    content: url("images/home_black_24dp.svg");
+}
 
 #unico {
     /* ID */
