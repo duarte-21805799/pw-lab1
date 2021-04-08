@@ -17,7 +17,7 @@ h2 {
     font-size: 2em;
 }
 
-.introducao {
+.introducao::before {
     content: url("images/description_black_24dp.svg");
 
 }
