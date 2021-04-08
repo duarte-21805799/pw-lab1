@@ -62,17 +62,17 @@ a:link {
 }
 
 a:visited {
-    color: mediumspringgreen;
+    color: black;
 
 }
 
 a:hover {
     /* Pseudo-classe */
-    background-color: whitesmoke;
+    background-color: black;
 }
 
 a:active {
-    background-color: yellow;
+    background-color: seashell;
 }
 
 .sticky {
