@@ -20,6 +20,11 @@ h2 {
     font-size: 2em;
 }
 
+.aside {
+    position: relative;
+    right: 0;
+}
+
 .introducao::before {
     content: url("images/description_black_24dp.svg");
 }
