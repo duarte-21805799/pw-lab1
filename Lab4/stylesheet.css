@@ -3,7 +3,6 @@
     font-size: 1em;
 }
 
-
 body {
     background-color:black;
 }
@@ -18,10 +17,35 @@ h2 {
     font-size: 2em;
 }
 
-.importante {
+.introducao {
     /* Classe */
     color: red;
 }
+
+.localizacao {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.multimedia {
+    color: red;
+    font-size: 2em;
+}
+
+.informacoes::before {
+    content: img src="images/info._black_24dp.svg";
+}
+
+/*.quizz::before {
+
+}
+
+.html5css::before {
+
+}
+
+.home::before {
+
+}*/
 
 #unico {
     /* ID */
@@ -33,24 +57,23 @@ a[target=_blank] {
     background-color: lightblue;
 }
 
-div:link {
-    background-color: blue;
+a:link {
+    color: blue;
 }
 
-div:visited {
-    background-color: purple;
+a:visited {
+    background-color: rgb(182, 51, 182);
 
 }
 
-div:hover {
+a:hover {
     /* Pseudo-classe */
     background-color: whitesmoke;
 }
 
-div:active {
+a:active {
     background-color: yellow;
 }
-
 
 
 p::first-letter {
