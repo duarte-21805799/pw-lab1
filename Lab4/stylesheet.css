@@ -75,7 +75,7 @@ a:active {
     background-color: yellow;
 }
 
-nav.sticky {
+.sticky {
     position: sticky;
     top: 0;
 }
