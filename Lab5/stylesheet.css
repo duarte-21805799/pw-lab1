@@ -22,8 +22,7 @@ h2 {
 
 .aside {
     position: absolute;
-    right: 0;
-}
+    }
 
 .introducao::before {
     content: url("images/description_black_24dp.svg");
