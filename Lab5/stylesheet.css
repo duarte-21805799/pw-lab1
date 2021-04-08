@@ -2,6 +2,7 @@
     /* Universal */
     font-size: 1em;
     font-family: 'Zilla Slab Highlight', cursive;
+    box-sizing: border-box;
 }
 
 body {
@@ -58,7 +59,7 @@ a[target=_blank] {
 }
 
 a:link {
-    color: blue;
+    color: black;
 }
 
 a:visited {
