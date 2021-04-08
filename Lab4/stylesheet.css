@@ -76,10 +76,10 @@ a:active {
 }
 
 .sticky {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
     padding: 5px;
+    width: 100%;
 }
 
 p::first-letter {
