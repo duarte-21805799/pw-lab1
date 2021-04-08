@@ -21,7 +21,7 @@ h2 {
 }
 
 .aside {
-    position: absolute;
+    position: relative;
     right: 15%;
 }
 
