@@ -1,26 +1,16 @@
 *{
     /* Universal */
     font-size: 1em;
-    font-family: 'Zilla Slab Highlight', cursive;
 }
 
+
 body {
-    font-size: large;
+    background-color:black;
 }
 
 h1 {
     /* Tipo */
     font-size: 3em;
-}
-
-h2 {
-    /* Tipo */
-}
-
-h3 {
-    /* Tipo */
-    
-
 }
 
 .importante {
@@ -38,10 +28,25 @@ a[target=_blank] {
     background-color: lightblue;
 }
 
+div:link {
+    background-color: blue;
+}
+
+div:visited {
+    background-color: purple;
+
+}
+
 div:hover {
     /* Pseudo-classe */
-    background-color: purple;
+    background-color: whitesmoke;
 }
+
+div:active {
+    background-color: yellow;
+}
+
+
 
 p::first-letter {
     /* pseudo-elemento */
