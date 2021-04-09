@@ -41,7 +41,8 @@ body {
   .column.side {
      -webkit-flex: 5;
      -ms-flex: 5;
-     flex: 5;
+     flex: 5
+     ;
   }
   
   /* Middle column */
