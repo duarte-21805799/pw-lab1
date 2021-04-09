@@ -14,7 +14,7 @@
   }
 
 body {
-    top: 40px;
+    margin-top: 40px;
 }
 
 /* Style the header */
@@ -37,7 +37,7 @@ body {
     -ms-flex: 1;
     flex: 1;
     padding: 10px;
-    /* height: 300px;  Should be removed. Only for demonstration */
+    height:400px;
   }
   
   /* Style the footer */
