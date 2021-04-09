@@ -2,7 +2,7 @@
 
 *{
     /* Universal */
-    font-size: 1em;
+    font-size: 18px;
     font-family: 'Zilla Slab Highlight', cursive;
     box-sizing: border-box;
 }
@@ -22,7 +22,7 @@ body {
     background-color: #a5a2a2;
     padding: 20px;
     text-align: center;
-    font-size: 0.7em;
+    font-size: 1.2em;
   }
   
   /* Container for flexboxes */
