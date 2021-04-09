@@ -2,7 +2,7 @@
 
 *{
     /* Universal */
-    font-size: 1.3em;
+    font-size: 0.6em;
     font-family: 'Zilla Slab Highlight', cursive;
     box-sizing: border-box;
 }
@@ -22,7 +22,7 @@ body {
     background-color: #a5a2a2;
     padding: 20px;
     text-align: center;
-    font-size: 0.7em;
+    /*font-size: 0.7em;*/
   }
   
   /* Container for flexboxes */
@@ -66,7 +66,7 @@ h2 {
 
 
 .fotos {
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .introducao::before {
