@@ -67,7 +67,9 @@ h2 {
 }
 
 
-
+.fotos {
+    max-width: 50vw;
+}
 
 .introducao::before {
     content: url("images/description_black_24dp.svg");
