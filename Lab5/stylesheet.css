@@ -36,9 +36,9 @@ body {
   
   /* Left and right column */
   .column.side {
-     -webkit-flex: 5;
-     -ms-flex: 5;
-     flex: 5
+     -webkit-flex: 2;
+     -ms-flex: 2;
+     flex: 2;
      ;
   }
   
