@@ -22,10 +22,10 @@ body {
 
 /* Style the header */
 .header {
-    background-color: #f1f1f1;
-    padding: 30px;
+    background-color: #474747;
+    padding: 20px;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.7em;
   }
   
   /* Container for flexboxes */
@@ -148,6 +148,10 @@ a:active {
     z-index: -1;
 }
 
+p {
+    font-size: 0.5em;
+}
+
 p::first-letter {
-    font-size: 2em;
+    font-size: 1.5em;
 }
