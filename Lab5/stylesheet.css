@@ -21,10 +21,23 @@ h2 {
     font-size: 2em;
 }
 
-aside {
+.aside1 {
     position: absolute;
-    text-align: right;
-    }
+    right: 0%;
+    top: 15%;
+}
+
+.aside2 {
+    position: absolute;
+    right: 0%;
+    top: 45%;
+}
+
+.aside3 {
+    position: absolute;
+    right: 0%;
+    top: 75%;
+}
 
 .introducao::before {
     content: url("images/description_black_24dp.svg");
